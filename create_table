@@ -4,12 +4,12 @@
 create database database_name
 
 #create data table
-CREATE TABLE test
-(column_name1 varchar(20), column_name2 varchar(20));
+create table test1
+  (`column1` varchar(20), `column2` varchar(20));
 
 #create values in columns
-INSERT INTO test
-(column_name1,column_name2)
-VALUES
+insert into test1
+(`column1`,`column2`)
+values
 (10,20),
 (30,40);
