@@ -13,3 +13,16 @@ insert into test1
 values
 (10,20),
 (30,40);
+
+
+
+## If you want to create a new database and create dataabase to the new created database
+
+create database new_database_name;
+CREATE TABLE new_database_name.test1  (`column1` varchar(20), `column2` varchar(20));
+
+insert into new_database_name.test1
+(`column1`,`column2`)
+values
+(10,20),
+(30,40);
