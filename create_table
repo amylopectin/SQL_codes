@@ -1,4 +1,7 @@
-#create columns
+#create database
+create database database_name
+
+#create data table
 CREATE TABLE test
 (column_name1 varchar(20), column_name2 varchar(20));
 
